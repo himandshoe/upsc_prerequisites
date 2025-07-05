@@ -26,7 +26,6 @@ You are an expert AI data extraction engine. Your purpose is to analyze a page f
 
 **CONTEXT:**
 The automated system has pre-extracted all images from this page. They are identified by a `diagram_id`.
-{diagram_list}
 
 **YOUR TASK:**
 Analyze the full page image provided. For each Multiple-Choice Question (MCQ) you find, perform the following actions:
