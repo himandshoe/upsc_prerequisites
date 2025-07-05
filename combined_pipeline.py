@@ -25,11 +25,11 @@ PROMPT_TEMPLATE = """
 You are an expert AI data extraction engine. Your purpose is to analyze a page from a UPSC exam question paper, extract all questions, and associate them with any diagrams present.
 
 **CONTEXT:**
-I have already extracted all images from this page. They are identified by a `diagram_id`.
+The automated system has pre-extracted all images from this page. They are identified by a `diagram_id`.
 {diagram_list}
 
 **YOUR TASK:**
-Analyze the full page image. For each Multiple-Choice Question (MCQ) you find, perform the following actions:
+Analyze the full page image provided. For each Multiple-Choice Question (MCQ) you find, perform the following actions:
 
 1.  **EXTRACT DATA & ASSOCIATE DIAGRAM:**
     *   **Question Number:** Extract the question's identifier (e.g., "1.", "42.").
